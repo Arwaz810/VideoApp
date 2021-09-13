@@ -10,11 +10,13 @@ class VideoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-          primaryTextTheme: GoogleFonts.ubuntuTextTheme(),
-        ),
-      home: LogInScreen(),
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primaryTextTheme: GoogleFonts.ubuntuTextTheme(),
+      ),
+      home: LogInScreen(),
     );
   }
 }
+
+//'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZAVKE7xuPY_aWtcIWDDlPAM1IkSfITzmWg&usqp=CAU',
